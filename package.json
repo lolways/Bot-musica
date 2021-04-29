@@ -14,6 +14,7 @@
     "discord-ytdl-core": "^5.0.2",
     "discord.js": "^12.5.3",
     "ffmpeg-static": "^4.3.0",
+    "git": "^0.1.5",
     "prism-media": "^1.2.9",
     "soundcloud-scraper": "^4.0.3",
     "spotify-url-info": "^2.2.0",
