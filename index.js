@@ -41,5 +41,5 @@ const eventos = require("./comandos/eventos")
 
 client.on("message", musicacomandos);
 
-client.login(client.config.discord.token);
+client.login("token");
 
