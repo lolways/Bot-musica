@@ -36,10 +36,4 @@ for (const file of player) {
     client.player.on(file.split(".")[0], event.bind(null, client));
 };
 
-
-const eventos = require("./comandos/eventos")
-
-client.on("message", musicacomandos);
-
-client.login("token");
-
+client.login(client.config.discord.token);
