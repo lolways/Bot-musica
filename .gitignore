@@ -7,3 +7,4 @@ config/bot.js
 index.js
 package-lock.json
 package.json
+*.js
