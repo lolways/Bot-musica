@@ -16,6 +16,6 @@ module.exports = {
 
         message.channel.send(`**Queue - ${message.guild.name} ${client.emotes.queue} ${client.player.getQueue(message).loopMode ? '(looped)' : ''}**\nCurrent : ${queue.playing.title} | ${queue.playing.author}\n\n` + (queue.tracks.map((track, i) => {
             return `**#${i + 1}** - ${track.title} | ${track.author} (A pedido de : ${track.requestedBy.username})`
-        }).slice(0, 5).join('\n') + `\n\n${queue.tracks.length > 5 ? `y **${queue.tracks.length - 5}** otras canciones` : `en la playlist **${queue.tracks.length}** cancion(es)...`}`));
+        }).slice(0, 20).join('\n') + `\n\n${queue.tracks.length > 20 ? `y **${queue.tracks.length - 20}** otras canciones` : `en la playlist **${queue.tracks.length}** cancion(es)...`}`));
     },
 };

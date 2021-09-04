@@ -14,5 +14,6 @@ module.exports = {
         if (!args[0]) return message.channel.send(`${client.emotes.error} - Indique el titulo de la cancion !`);
 
         client.player.play(message, args.join(" "), { firstResult: true });
+
     },
 };
